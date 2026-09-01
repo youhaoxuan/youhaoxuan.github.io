@@ -1,85 +1,85 @@
 ---
-name: Traveler
-description: Shop-floor traveler card as the design language for a battery process engineer's site.
-seed: traveler-2026-08
+name: Instrument
+description: Restraint plus scale — a near-black engineering site for a battery process engineer.
+seed: instrument-2026-08
 colors:
-  ground: "#191d1f"
-  ground-2: "#21262a"
-  ground-3: "#2a3136"
-  rule-dark: "#333c41"
-  rule-dark-2: "#46525a"
-  stock: "#e9e7e0"
-  stock-2: "#dedbd2"
-  stock-3: "#d0ccc0"
-  stock-edge: "#bab6aa"
-  ink: "#15191c"
-  ink-soft: "#4d565b"
-  ink-faint: "#5a6469"
-  on-dark: "#e9e7e0"
-  on-dark-soft: "#9aa6ab"
-  on-dark-faint: "#8a959a"
-  stock-hi: "#f7f6f2"
-  ink-deep: "#05070a"
-  stamp: "#b83a2b"
-  stamp-lite: "#e0654f"
-  pass: "#2f6b4f"
-  caution: "#d9a12c"
-  caution-ink: "#8a6410"
-  shadow-cast: "rgba(0, 0, 0, .5)"
-  shadow-contact: "rgba(0, 0, 0, .34)"
+  void: "#0b0d10"
+  surface: "#14171b"
+  surface-2: "#1c2126"
+  line: "#2b3138"
+  line-2: "#3c444d"
+  paper: "#fafafa"
+  paper-2: "#eef0f1"
+  paper-3: "#e2e5e7"
+  paper-line: "#d5d9dc"
+  snow: "#ffffff"
+  snow-2: "#a9b0b8"
+  snow-3: "#8b939c"
+  ink: "#16191d"
+  ink-2: "#4a5058"
+  ink-3: "#656c74"
+  data: "#8fd8ff"
+  live: "#f5a524"
+  black: "#000000"
+  overlay-light: "rgba(255, 255, 255, .1)"
+  overlay-dark: "rgba(0, 0, 0, .06)"
   print-ground: "#ffffff"
-  print-rule: "#b4b4b4"
-  print-rule-2: "#8c8c8c"
-  print-stock-2: "#f2f2f2"
-  print-stock-3: "#e8e8e8"
+  print-line: "#c4c8cc"
+  print-line-2: "#9aa0a6"
+  print-paper-2: "#f2f2f2"
   print-ink: "#000000"
-  print-ink-soft: "#1c1c1c"
-  print-ink-faint: "#3d3d3d"
-  print-stamp: "#333333"
+  print-ink-2: "#1c1c1c"
+  print-ink-3: "#3d3d3d"
+  print-signal: "#333333"
 typography:
-  display:
-    fontFamily: "Archivo, 'Helvetica Neue', Arial, sans-serif"
-    fontSize: "clamp(2rem, 6.4vw, 5.4rem)"
-    fontVariationSettings: "'wdth' 118, 'wght' 800"
-    lineHeight: 0.94
-    letterSpacing: "-0.028em"
-    textTransform: "uppercase"
-  head:
-    fontFamily: "Archivo, 'Helvetica Neue', Arial, sans-serif"
-    fontSize: "clamp(1.7rem, 3.4vw, 2.6rem)"
-    fontVariationSettings: "'wdth' 112, 'wght' 750"
-    lineHeight: 1.04
-    letterSpacing: "-0.02em"
-    textTransform: "uppercase"
-  field:
-    fontFamily: "Archivo, 'Helvetica Neue', Arial, sans-serif"
-    fontSize: "0.8rem"
-    fontVariationSettings: "'wdth' 78, 'wght' 650"
-    letterSpacing: "0.17em"
-    textTransform: "uppercase"
-  typed:
-    fontFamily: "'Courier Prime', 'Courier New', ui-monospace, monospace"
-    fontSize: "0.8rem"
-    fontVariantNumeric: "tabular-nums"
+  meta:
+    fontFamily: "Figtree, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+    fontSize: "0.8125rem"
+    fontWeight: 500
+    lineHeight: 1.45
+  nav-compressed:
+    fontFamily: "Figtree, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+    fontSize: "0.75rem"
+    fontWeight: 500
   body:
-    fontFamily: "Archivo, 'Helvetica Neue', Arial, sans-serif"
+    fontFamily: "Figtree, -apple-system, 'Helvetica Neue', Arial, sans-serif"
     fontSize: "1rem"
-    lineHeight: 1.62
+    fontWeight: 400
+    lineHeight: 1.6
   lede:
-    fontFamily: "Archivo, 'Helvetica Neue', Arial, sans-serif"
-    fontSize: "clamp(1.05rem, 1.7vw, 1.3rem)"
+    fontFamily: "Figtree, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+    fontSize: "clamp(1.0625rem, 1.4vw, 1.25rem)"
+    fontWeight: 400
     lineHeight: 1.5
   title:
-    fontFamily: "Archivo, 'Helvetica Neue', Arial, sans-serif"
-    fontSize: "clamp(1.2rem, 2.2vw, 1.55rem)"
-    fontVariationSettings: "'wdth' 108, 'wght' 750"
-    lineHeight: 1.1
-  readout:
-    fontFamily: "'Courier Prime', 'Courier New', ui-monospace, monospace"
-    fontSize: "clamp(1.7rem, 3.4vw, 2.6rem)"
-    fontVariantNumeric: "tabular-nums"
+    fontFamily: "Figtree, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+    fontSize: "clamp(1.25rem, 1.8vw, 1.5rem)"
+    fontWeight: 500
+    lineHeight: 1.25
+    letterSpacing: "-0.01em"
+  figure:
+    fontFamily: "Figtree, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+    fontSize: "clamp(1.5rem, 2.6vw, 2rem)"
+    fontWeight: 500
+    letterSpacing: "-0.015em"
+  section:
+    fontFamily: "Figtree, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+    fontSize: "clamp(1.75rem, 3vw, 2.5rem)"
+    fontWeight: 500
+    lineHeight: 1.15
+    letterSpacing: "-0.015em"
+  hero:
+    fontFamily: "Figtree, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+    fontSize: "clamp(2.5rem, 6.2vw, 4.5rem)"
+    fontWeight: 500
+    lineHeight: 1.06
+    letterSpacing: "-0.02em"
 rounded:
-  all: "0"
+  control: "4px"
+  bar-top: "4px 4px 0 0"
+  focus: "2px"
+  dot: "50%"
+  none: "0"
 spacing:
   s2: "8px"
   s3: "12px"
@@ -89,153 +89,164 @@ spacing:
   s7: "48px"
   s8: "64px"
   s9: "96px"
+  s10: "144px"
 components:
-  stock-card:
-    backgroundColor: "{colors.stock}"
-    textColor: "{colors.ink}"
-    border: "1px solid {colors.stock-edge}"
-    shadow: "0 9px 14px -7px rgba(0,0,0,.5), 0 2px 3px -1px rgba(0,0,0,.34)"
-  stamp:
-    border: "2.5px solid currentColor"
-    transform: "rotate(-6deg)"
-    opacity: 0.9
-  btn-primary:
-    backgroundColor: "{colors.stock}"
-    textColor: "{colors.ink}"
-    padding: "14px 24px"
-  btn-primary-on-stock:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.stock}"
+  button:
+    backgroundColor: "{colors.snow}"
+    textColor: "{colors.void}"
+    rounded: "{rounded.control}"
+    padding: "11px 28px"
+    minHeight: "44px"
+    fontSize: "0.8125rem"
+    fontWeight: 500
+  button-quiet:
+    backgroundColor: "{colors.overlay-light}"
+    textColor: "{colors.snow}"
+    rounded: "{rounded.control}"
+  panel:
+    backgroundColor: "{colors.surface}"
+    border: "1px solid {colors.line}"
+    rounded: "{rounded.control}"
+  bar:
+    backgroundColor: "{colors.line-2}"
+    width: "60px"
+    rounded: "4px 4px 0 0"
 ---
 
-# Design System: Traveler
+# Design System: Instrument
 
 ## 1. Overview
 
-**Creative North Star: "The card that rides the line."**
+**Creative North Star: "Restraint plus scale."**
 
-A shop-floor traveler is the printed sheet that accompanies a batch through production: preprinted form furniture, typed-in values, and an inspection stamp at every station that signs the work off. This site is that document. Light bond stock lies on a dark anodized bench; the résumé is a route, each job an operation, each completed role a buy-off stamp.
+This is the design idiom of modern automotive and energy engineering pages: near-black grounds, quiet type set at a single mid weight, one small radius used everywhere, and enormous whitespace. Nothing is loud. Hierarchy comes from scale and emptiness, never from ornament, borders, or color.
 
-The world was chosen with the site's owner over three alternatives drawn from the same professional vocabulary (SPC control chart, metallographic cross-section, roll-to-roll web). It is a **Persuade** surface: a hiring manager in battery manufacturing must, within seconds, believe this person has run a line rather than described one.
+The world was chosen by the site's owner, who works in cell manufacturing and wanted a personal site that reads as fluent in the visual culture of that industry. It replaced an earlier world entirely.
+
+**Explicit boundary.** This site borrows an *idiom*, never an identity. No employer logo, wordmark, brand color, licensed typeface, product render, or navigation chrome appears anywhere. The brand on the page is Haoxuan You. Employment is stated as fact in body copy — "Process Engineer, LFP Cell Manufacturing at Tesla" — and nowhere is the site styled to suggest it is an official or endorsed property. Any future change that adds a borrowed mark or trade dress is out of scope by definition.
 
 **Key characteristics:**
-- Zero border-radius anywhere. Forms have corners.
-- Depth comes from one card lifting off one bench — not from stacked elevations.
-- Structure is carried by 1px rules and field cells, never by nested cards.
-- Every measurement is set in typewriter mono with tabular numerals.
+- One radius, `4px`, on every control, panel and bar. No exceptions except a 2px focus ring and a 50% state dot.
+- Headings are all weight 500. There is no 700 and no 800 in the system.
+- Zero letter-spacing on anything positive; display sizes track tight and negative.
+- Achromatic by default. Two signal colors, together under 2% of any surface.
+- Bands alternate near-black and full-bleed paper. There is no third surface treatment.
 
 ## 2. Colors
 
-Restrained: a two-surface neutral system with a single accent that earns its rarity.
+### Grounds
+- **Void** (`#0b0d10`): the default page ground. Cool, blue-tinted; never pure black on screen.
+- **Surface** (`#14171b`) and **Surface 2** (`#1c2126`): panels, charts, work entries, and the hover state above them.
+- **Line** (`#2b3138`) and **Line 2** (`#3c444d`): the only structural device on dark. 1px, never heavier.
 
-### Surfaces
-- **Ground** (`#191d1f`): the bench. Cool graphite tinted green. The page's default surface.
-- **Ground 2 / 3** (`#21262a`, `#2a3136`): work-entry panels and figure wells.
-- **Stock** (`#e9e7e0`): laser bond card stock. Every traveler card. Deliberately *not* cream — this is a working document, not an editorial spread.
-- **Stock 2 / 3** (`#dedbd2`, `#d0ccc0`): shaded form fields, operation-number gutters, hover states on stock.
+### Paper
+- **Paper** (`#fafafa`): full-bleed light bands. These carry explanatory content — the phase cards, patents, qualification — so the page breathes between dark sections.
+- **Paper 2 / 3** (`#eef0f1`, `#e2e5e7`) and **Paper line** (`#d5d9dc`): hover fills and hairlines on light.
 
-### Ink
-- **Ink** (`#15191c`) primary on stock; **Ink soft** (`#4d565b`) body; **Ink faint** (`#5a6469`) field labels — 4.85:1 on stock, the floor.
-- **On-dark** (`#e9e7e0`), **on-dark-soft** (`#9aa6ab`), **on-dark-faint** (`#8a959a`) — the last is 5:1 on ground-2.
+### Type
+- On dark: **Snow** (`#ffffff`), **Snow 2** (`#a9b0b8`, 8.5:1 on void), **Snow 3** (`#8b939c`, 5.6:1).
+- On paper: **Ink** (`#16191d`), **Ink 2** (`#4a5058`), **Ink 3** (`#656c74`).
 
-### Stamps
-- **Stamp red** (`#b83a2b`, `#e0654f` on dark): the only accent. Job titles' employer names, section numbers, in-process status, the `HY` mark.
-- **Pass green** (`#2f6b4f`) and **caution amber** (`#d9a12c`) carry *state only* — bought-off versus still running — and never decorate.
+### Signals
+- **Data** (`#8fd8ff`): the ramp-chart line, its dots, and the focus ring. Nothing else.
+- **Live** (`#f5a524`): a 6px dot beside the current role. Nothing else.
 
 ### Named rules
-**The 10% Accent Rule.** Stamp red covers under 10% of any rendered surface. Its scarcity is what makes a red employer name read as important.
+**The 2% rule.** Data and Live together cover under 2% of any rendered surface. If a third color is ever proposed, the answer is no — hierarchy is carried by scale, weight and whitespace.
 
-**Never pure on screen.** No `#000`, no `#fff`, no untinted gray anywhere in the screen palette. Every neutral leans to the bench's blue-green or the stock's warm gray. The print palette is the one exception — paper is white and ink is black, and the `print-*` tokens say so explicitly.
+**Never pure on screen.** No `#000` and no untinted gray in the screen palette. Grounds lean blue-green; paper leans warm-neutral. The print palette is the deliberate exception.
 
-**State is never color alone.** Every stamp carries a word — COMPLETE, BOUGHT OFF, IN PROCESS, RUNNING — and a year.
+**State is never color alone.** The live dot always sits beside the word "Current".
 
 ## 3. Typography
 
-**One superfamily plus one typewriter.** Archivo (variable, `wdth` 62–125 × `wght` 100–900) is the printed form; Courier Prime is what was typed into it. That split is the whole system.
+**One family: Figtree** (variable, 300–800), with a real fallback stack. It is a geometric-leaning grotesque with a tall x-height — a legitimate free neighbor of the licensed faces this idiom usually uses, chosen because it is *not* the licensed face.
 
-- **Display** (Archivo, `wdth` 118 / `wght` 800, clamp 2.6–5.4rem, uppercase, −0.028em): page titles only.
-- **Head** (`wdth` 112 / `wght` 750, clamp 1.7–2.6rem, uppercase): section headings.
-- **Field** (`wdth` 78 / `wght` 650, 0.8rem, tracked 0.17em, uppercase): preprinted labels — TRAVELER NO., REV., STATUS.
-- **Typed** (Courier Prime, 0.8rem, tabular-nums): every value, date, station code, measurement and tag.
-- **Body** (Archivo, 1rem / 1.62): running copy, capped at 65–76ch.
+### The ramp — seven steps, nothing between them
+| Step | Size | Used for |
+|---|---|---|
+| nav-compressed | `0.75rem` (12px), w500 | navigation links below 560px only — the one compression variant |
+| meta | `0.8125rem` (13px), w500 | labels, nav, buttons, chips, tags, captions |
+| body | `1rem` (16px), w400 | running copy |
+| lede | `clamp(1.0625rem, 1.4vw, 1.25rem)` | section and hero supporting copy |
+| title | `clamp(1.25rem, 1.8vw, 1.5rem)`, w500 | h3, entry titles, figures in phase cards |
+| figure | `clamp(1.5rem, 2.6vw, 2rem)`, w500 | bar values, next-page titles |
+| section | `clamp(1.75rem, 3vw, 2.5rem)`, w500 | h2, and the About h1 |
+| hero | `clamp(2.5rem, 6.2vw, 4.5rem)`, w500 | one h1 per page |
 
 ### Named rules
-**Six steps, no more.** The whole ramp is `0.8rem` (field, typed) → `1rem` (body) → `clamp(1.05rem, 1.7vw, 1.3rem)` (lede, operation title) → `clamp(1.2rem, 2.2vw, 1.55rem)` (sub, work title) → `clamp(1.7rem, 3.4vw, 2.6rem)` (head, readout value) → `clamp(2rem, 6.4vw, 5.4rem)` (display). Two earlier drafts drifted — first to eleven near-duplicate micro-sizes between 11.2px and 16.3px, then to seven overlapping mid-range clamps. Any new size must reuse one of the six.
+**Everything is weight 500.** Every heading, label, button and figure. Body copy is 400. There is no bold in the system; emphasis inside prose uses `<b>` set to 500 against a lighter body color, so the contrast is tonal, not weight-based.
 
-**Printed versus typed.** If it was on the form before the batch arrived, it is condensed tracked Archivo caps. If a person or a machine wrote it in, it is Courier Prime. Nothing is both.
+**No positive tracking, ever.** Display steps track negative (−0.01em to −0.02em); everything else is `normal`. Tracked uppercase labels belong to a different world and were deliberately left behind with it.
 
-**No system display face.** Archivo is loaded, with a real fallback stack. The condensed and expanded widths are the point; a platform sans cannot stand in.
+**Sentence case.** No `text-transform: uppercase` anywhere in the system.
 
 ## 4. Elevation
 
-One shadow exists: the traveler card lifting off the bench (`0 9px 14px -7px` plus a 2px contact shadow). It has a real vertical offset and a tight blur, because a card on a table casts a card's shadow.
-
-Everything else is flat. Work entries, readouts and spec rows are separated by 1px rules, not by elevation. Hover lift is `translateY(-2px)`, never a shadow bloom.
+There is none. No element casts a shadow. Depth is expressed by exactly three things: the tonal step from void to surface, a 1px line, and the full-bleed switch to paper. Hover raises nothing — it shifts a background one step or brightens a border.
 
 ## 5. Components
 
-### Traveler card (`.stock`)
-Light stock on the bench. Opens with a **title block** — a bordered field grid of label-over-value cells (2 columns under 700px, 1 under 380px). Never rounded, never shadowed beyond the single card shadow.
+### Navigation
+Sticky, `rgba(11,13,16,.78)` with a 14px backdrop blur, no border. On scroll past 24px it gains `.is-stuck`: opacity to `.94` and a 1px bottom line. Name on the left as the brand, four links, and a quiet résumé button that drops below 720px.
 
-### Operation row (`.op`)
-Three columns: station number gutter (`OP 50`), the work, and a buy-off box. Under 760px the buy-off box drops below and left-aligns. The buy-off column is 176px so a rotated stamp never clips the card edge.
+### Hero
+`min-height: min(88vh, 780px)`, centered, type only. Role line, h1, lede, two buttons, and a scroll cue whose chevron nudges once every 2.4s. No image — the type is the composition.
 
-### Buy-off stamp (`.stamp`)
-2.5px border, rotated −6°, 90% opacity, with a year beneath. `--stamp-pass` for completed operations, `--stamp-live` (dashed, amber, −3°) for the current one.
+### Metric bars (`.bars`)
+Flat `--line-2` columns, 60px wide, 4px top radius, growing from a shared baseline with the value above and label below. Heights are set per-bar with `--h` and are **proportional to the real numbers** — 80% is 210px, 10% is 26px. A bar that is not to scale is a lie about a measurement.
 
-### Sheet tabs (`.sheets`)
-The nav is the document's sheet index — numbered 1–4, current sheet inverted to stock, `SHEET n OF 4` on the right. Labels drop to numbers under 860px.
+### Ramp chart
+1px grid lines, a 2px `--data` stroke that draws itself once, three dots. Axis labels in meta. No fills, no gradients, no tooltips.
 
-### Readouts (`.readouts`)
-An instrument strip beneath the ramp chart: mono value with a stamp-red unit, tracked-caps label, mono note. Values count up on first view. This is a chart annotation panel, not a hero stat row — it never appears without the chart it annotates.
+### Phase cards (`.phases`)
+Three cells on paper separated by a 1px grid gap, not by borders or shadows. Collapse to one column under 860px.
 
-### Revision block (footer)
-The document's revision record: contact, external record, sheet index, document rev.
+### Role list (`.role`)
+Date column on the left, content on the right, 1px rules between. Summary bullets always visible; a `.more` button reveals the full detail. The current role carries the live dot.
+
+### Work entry (`.work`)
+380px figure well plus body, 4px radius, 1px border. Figures sit on **paper** inside the dark entry and are `object-fit: contain` — these are licensed scientific figures and cropping them destroys information and misrepresents the source.
 
 ## 6. Motion
 
-**One authored moment: the stamp lands.** On first intersection each buy-off stamp rotates from −16° at 1.42 scale through a 2px blur into place, over 520ms on `cubic-bezier(.16,1,.3,1)`, staggered down the sheet. That is the site's single piece of choreography.
+Two authored moments, both fired once on first sight:
 
-Supporting motion is deliberately quiet: a 14px rise on section entry, a 1.5s stroke-dashoffset draw on the ramp chart with dots resolving behind it, a 1.1s quartic count-up on readouts, and a `grid-template-rows: 0fr → 1fr` expansion on operation detail.
+1. **Bars grow** from the baseline over 900ms — `transform: scaleY()` with a bottom origin, never `height`, so no frame costs a layout pass.
+2. **The ramp line draws** over 1.4s via `stroke-dashoffset`, with its dots resolving behind it.
 
-All of it is gated on `prefers-reduced-motion: reduce`, under which every element renders in its final state with no transition.
+Supporting motion is an 18px rise on section entry and a 1s quartic count-up on bar values. The scroll chevron is the only loop in the system.
 
-## 7. Browser surfaces
+Every one of these is gated on `prefers-reduced-motion: reduce`, under which all elements render in final state with no transition.
 
-Themed, not left to defaults: selection is stamp red on white, the scrollbar is a graphite slide rail on the bench, focus rings are 2px dashed amber (stamp red on light stock), and every numeric field uses `tabular-nums`.
+## 7. Adaptation
 
-## 8. Do's and don'ts
+- Hover rules live entirely inside `@media (hover: hover) and (pointer: fine)`; touch gets `:active` instead, so nothing sticks after a tap.
+- `@media (pointer: coarse)` raises controls to 46–48px regardless of screen width.
+- `viewport-fit=cover` with `env(safe-area-inset-*)` on shell, nav and footer.
+- Content-driven breakpoints: 900px (work entry stacks), 860px (phase cards stack, portrait stacks), 760px (role columns stack, spec rows stack), 720px (nav CTA drops), 640px (shell margin), 400px (nav padding).
+- Short landscape (`max-height: 460px`) un-sticks the nav and collapses the hero minimum height.
 
-### Do
-- **Do** keep every corner square. The radius token is `0` and it is not negotiable.
-- **Do** set values in Courier Prime and labels in condensed Archivo caps. The split carries the world.
-- **Do** give state a word as well as a color.
-- **Do** hold the small type scale at exactly 0.8rem and 1rem.
-- **Do** keep the accent under 10% of any surface.
+## 8. No JavaScript is a supported state
 
-### Don't
-- **Don't** add a second shadow tier or nest a card inside a card.
-- **Don't** introduce a kicker or eyebrow label above a heading.
-- **Don't** use cream, parchment or warm-paper grounds — the stock is a cool bond, and the bench is graphite.
-- **Don't** set uppercase runs longer than about 20 characters. Tracked caps stop being readable.
-- **Don't** add decorative grid or hatch fills. An early draft carried both; both were removed as unearned texture.
-- **Don't** put a `.btn` on light stock without the `.stock .btn` inversion — the default primary is stock-colored and disappears.
+A `.js` class is set on `<html>` before first paint. Reveal, bar growth and collapsed detail are all gated behind it. Without JS the page renders complete and open, bar values and figures show their true numbers, and the controls that would do nothing — filter, show-more, expand-all — are hidden rather than left dead.
 
 ## 9. Print
 
-Paper is a supported surface: a hiring manager may print the route sheet next to a résumé. Print does not flip `body` alone — it **redefines the tokens**, so every on-dark color follows to ink automatically. An earlier draft flipped only the page background and left `--on-dark-soft` gray on white, which printed nearly blank.
+Print redefines the tokens rather than flipping the background, so every on-dark color follows to ink automatically. Grounds go white, lines to gray, all signal colors to `#333`. Navigation, filters, buttons, figures and the scroll cue are dropped; role detail is forced open; `break-inside: avoid` on every entry.
 
-- Grounds go to white, rules to `#b4b4b4`/`#8c8c8c`, all ink families to near-black.
-- All stamp hues collapse to `#333`; the stamp's *word* carries the state, so nothing is lost.
-- Navigation, filters, expand controls, figures and the copy button are dropped.
-- Operation detail is forced open — a printed route sheet with collapsed sections is a broken document.
-- `break-inside: avoid` on every work entry, operation, spec row and readout.
+## 10. Do's and don'ts
 
-## 10. Device adaptation
+### Do
+- **Do** use `4px`. It is the only radius.
+- **Do** set every heading at weight 500.
+- **Do** keep bar heights proportional to the values they represent.
+- **Do** alternate void and paper bands to pace a long page.
+- **Do** let whitespace carry hierarchy before reaching for a rule or a border.
 
-- **Hover is a capability, not a default.** Every hover rule lives inside `@media (hover: hover) and (pointer: fine)`. Touch devices get `:active` feedback instead, so no state can stick after a tap.
-- **`@media (pointer: coarse)`** raises controls to 48–50px and loosens chip spacing, independent of screen width — a touchscreen laptop gets finger-sized targets too.
-- **Safe areas.** `viewport-fit=cover` plus `env(safe-area-inset-*)` on the shell, sticky nav and footer.
-- **Breakpoints are content-driven:** 1080px (work figure column needs room), 860px (sheet tab labels collapse to numbers), 780px (work and operator record stack), 760px (buy-off box drops below), 700px (title-block fields go two-up), 380px (title-block goes single column).
-- **Short landscape** (`max-height: 460px`) un-sticks the nav so it cannot eat a phone's landscape viewport.
-- **No JavaScript is a supported state.** Reveal, stamp-landing and collapsed detail are all gated behind a `.js` class set before first paint. Without JS the page renders complete and open, readouts show their true values, and the expand and filter controls — which would do nothing — are hidden.
+### Don't
+- **Don't** add a shadow. The system has no elevation.
+- **Don't** add a third signal color, or push Data and Live past 2%.
+- **Don't** use uppercase or positive letter-spacing.
+- **Don't** introduce weight 600+ for emphasis; use color and size.
+- **Don't** add any employer logo, wordmark, brand color, licensed font, or product imagery. The idiom is borrowed; the identity is not.

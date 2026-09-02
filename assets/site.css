@@ -426,7 +426,9 @@ a { color: inherit; }
 
 /* ---------- 18. Footer ---------- */
 .foot { border-top: 1px solid var(--line); padding: var(--s8) 0 var(--s7); }
-.foot-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--s6); }
+.foot-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s6); }
+@media (max-width: 700px) { .foot-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 420px) { .foot-grid { grid-template-columns: 1fr; } }
 .foot-k { font-size: .8125rem; font-weight: 500; color: var(--snow-3); margin-bottom: var(--s3); }
 .foot a, .foot .copy {
   display: block;

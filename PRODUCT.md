@@ -33,7 +33,7 @@ Readers evaluate fast and comparatively. They skim for verbs that imply ownershi
 - Static hosting on GitHub Pages at https://youhaoxuan.github.io/ — no server, no database, no build step.
 - Four routes, preserved from the incumbent site: `/` (index), `/about.html`, `/projects.html`, `/experience.html`.
 - Existing SEO must be preserved: canonical URLs, OG and Twitter tags, `google-site-verification`, `sitemap.xml`, `robots.txt`.
-- The resume PDF must ship at `Haoxuan-You-Resume.pdf`. The incumbent site links to this path from two pages and the file is absent — a live 404.
+- No résumé PDF is published. It was removed at the owner's request; if one is reinstated it ships at `Haoxuan-You-Resume.pdf` and must be checked before publishing.
 
 ## Brand Commitments
 
